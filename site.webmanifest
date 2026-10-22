@@ -3,9 +3,9 @@
   "short_name": "914 Ink",
   "icons": [
     {
-      "src": "assets/logo/favicon.png",
+      "src": "https://quseprdus1.blob.core.windows.net/kora-business-images/social-media/97b73a7d-ad45-4674-a572-c10f1b1f7935/medialibrary/1792656565_tmd785.jpg",
       "sizes": "150x150",
-      "type": "image/png"
+      "type": "image/jpeg"
     }
   ],
   "theme_color": "#0b0a09",
