@@ -18,9 +18,10 @@
   --color-bone-dim: #b7ae9e;
   --color-muted: #8d8577;
 
-  --font-heading: "Anton", "Arial Narrow", sans-serif;
-  --font-body: "Manrope", -apple-system, "Segoe UI", sans-serif;
-  --font-blackletter: "UnifrakturMaguntia", serif;
+  --font-heading: var(--kora-font-heading, "Anton"), "Arial Narrow", sans-serif;
+  --font-body: var(--kora-font-body, "Manrope"), -apple-system, "Segoe UI", sans-serif;
+  --font-accent: var(--kora-font-accent, "UnifrakturMaguntia"), serif;
+  --font-blackletter: var(--font-accent);
 }
 
 @layer components {
@@ -39,9 +40,9 @@
   --blood-dark: #8f1620;
   --gold: #c9a35f;
   --radius: 14px;
-  --font-display: "Anton", "Arial Narrow", sans-serif;
-  --font-body: "Manrope", -apple-system, "Segoe UI", sans-serif;
-  --font-blackletter: "UnifrakturMaguntia", serif;
+  --font-display: var(--font-heading);
+  --font-body: var(--kora-font-body, "Manrope"), -apple-system, "Segoe UI", sans-serif;
+  --font-blackletter: var(--font-accent);
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
