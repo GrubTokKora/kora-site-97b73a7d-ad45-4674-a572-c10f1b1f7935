@@ -1,0 +1,15 @@
+{
+  "name": "914 Ink Tattoos",
+  "short_name": "914 Ink",
+  "icons": [
+    {
+      "src": "assets/logo/favicon.png",
+      "sizes": "150x150",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#0b0a09",
+  "background_color": "#0b0a09",
+  "display": "standalone",
+  "start_url": "/"
+}
