@@ -1,11 +1,11 @@
 {
-  "name": "914 Ink Tattoos",
-  "short_name": "914 Ink",
+  "name": "Sleepy Tattoos",
+  "short_name": "Sleepy Tattoos",
   "icons": [
     {
-      "src": "https://quseprdus1.blob.core.windows.net/kora-business-images/social-media/97b73a7d-ad45-4674-a572-c10f1b1f7935/medialibrary/1792656565_tmd785.jpg",
-      "sizes": "150x150",
-      "type": "image/jpeg"
+      "src": "https://quseprdus1.blob.core.windows.net/kora-business-images/social-media/97b73a7d-ad45-4674-a572-c10f1b1f7935/medialibrary/1792735833_6qd7ro.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
   "theme_color": "#0b0a09",

@@ -1,4 +1,4 @@
-/* 914 Ink Tattoos: site behaviour (scroll reveals, homepage anchor links). */
+/* Sleepy Tattoos: site behaviour (scroll reveals, homepage anchor links). */
 (function () {
   "use strict";
 

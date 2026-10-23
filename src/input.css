@@ -2,7 +2,7 @@
 @source "../**/*.html";
 @source "../assets/**/*.js";
 
-/* 914 Ink Tattoos (ink-and-blood-noir). Brand tokens for the Kora build; the component layer below keeps the
+/* Sleepy Tattoos (ink-and-blood-noir). Brand tokens for the Kora build; the component layer below keeps the
    supplied site's own short custom properties (declared on :root) with the same values. */
 @theme {
   --color-primary: #c22430;
@@ -25,7 +25,7 @@
 }
 
 @layer components {
-/* 914 Ink Tattoos, White Plains NY: home of Sleepy Tattoos (Joel Tello).
+/* Sleepy Tattoos, White Plains NY: the tattoo shop of Joel Tello.
    Converted from the owner-supplied single-page design; values are unchanged from that file. */
 
 :root {
@@ -78,7 +78,7 @@ a { color: inherit; }
   max-width: 1180px; margin: 0 auto; padding: 10px 22px;
 }
 .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
-.brand img { width: 46px; height: 46px; border-radius: 10px; object-fit: cover; border: 1px solid var(--line); }
+.brand-logo { display: block; height: 72px; width: auto; }
 .brand-name { font-family: var(--font-display); font-size: 21px; letter-spacing: 0.06em; line-height: 1; white-space: nowrap; }
 .brand-name span { color: var(--blood); }
 .brand-sub { display: block; font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--muted); margin-top: 3px; white-space: nowrap; }
@@ -102,7 +102,7 @@ a { color: inherit; }
   .nav-links a.nav-link { display: none; }
   .nav-inner { padding: 8px 16px; gap: 10px; }
   .brand { gap: 9px; }
-  .brand img { width: 38px; height: 38px; }
+  .brand-logo { height: 54px; }
   .brand-name { font-size: 16.5px; }
   .brand-sub { display: none; }
   .btn-nav { padding: 9px 15px; font-size: 13.5px; margin-left: auto; }
@@ -180,7 +180,7 @@ a { color: inherit; }
 
 /* ---------- Sections ---------- */
 section { padding: 84px 0; }
-.section-head { margin-bottom: 40px; max-width: 44em; }
+.section-head { margin: 0 auto 40px; max-width: 44em; text-align: center; }
 .section-kicker {
   font-size: 12.5px; font-weight: 800; letter-spacing: 0.28em; text-transform: uppercase;
   color: var(--blood); margin: 0 0 12px;
@@ -288,11 +288,7 @@ section { padding: 84px 0; }
 .visit-block h3 { font-family: var(--font-display); font-weight: 400; font-size: 26px; text-transform: uppercase; margin: 0 0 14px; letter-spacing: 0.03em; }
 .visit-block p { color: var(--bone-dim); margin: 0 0 16px; }
 .address { font-size: 21px; color: var(--bone); font-weight: 700; line-height: 1.4; }
-.visit-hours { margin: 30px 0 18px; max-width: 360px; }
-.visit-hours h4 {
-  font-size: 12.5px; font-weight: 800; letter-spacing: 0.28em; text-transform: uppercase;
-  color: var(--blood); margin: 0 0 10px;
-}
+.visit-badge { margin-top: 26px; }
 .hours-list { list-style: none; margin: 0 0 14px; padding: 0; }
 .hours-list li {
   display: flex; justify-content: space-between; gap: 16px;
@@ -309,17 +305,11 @@ section { padding: 84px 0; }
   font-weight: 800; font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase;
   padding: 6px 14px; border-radius: 999px; margin-top: 6px;
 }
-.artist-list { list-style: none; margin: 0; padding: 0; }
-.artist-list li { padding: 14px 0; border-top: 1px solid var(--line); display: flex; justify-content: space-between; align-items: baseline; gap: 14px; }
-.artist-list li:last-child { border-bottom: 1px solid var(--line); }
-.artist-list b { font-size: 17px; }
-.artist-list a { color: var(--gold); text-decoration: none; font-weight: 700; white-space: nowrap; }
-.artist-list a:hover { text-decoration: underline; }
 @media (max-width: 760px) { .visit-grid { grid-template-columns: 1fr; gap: 40px; } }
 
 /* ---------- FAQ (added for the Kora build, same visual language as the style rows) ---------- */
 .faq-band { background: var(--bg-2); border-top: 1px solid var(--line); }
-.faq-list { max-width: 860px; }
+.faq-list { max-width: 860px; margin: 0 auto; }
 .faq-item { border-top: 1px solid var(--line); }
 .faq-item:last-child { border-bottom: 1px solid var(--line); }
 .faq-item summary {
@@ -343,7 +333,7 @@ section { padding: 84px 0; }
 footer { border-top: 1px solid var(--line); background: var(--bg-2); padding: 44px 0 52px; }
 .footer-inner { display: flex; flex-wrap: wrap; gap: 22px; align-items: center; justify-content: space-between; }
 .footer-brand { display: flex; align-items: center; gap: 12px; }
-.footer-brand img { width: 42px; height: 42px; border-radius: 9px; object-fit: cover; border: 1px solid var(--line); }
+.footer-logo { display: block; height: 96px; width: auto; }
 .footer-name { font-family: var(--font-display); font-size: 18px; letter-spacing: 0.05em; }
 .footer-tag { font-size: 12px; color: var(--muted); letter-spacing: 0.16em; text-transform: uppercase; }
 .footer-links { display: flex; gap: 22px; flex-wrap: wrap; }

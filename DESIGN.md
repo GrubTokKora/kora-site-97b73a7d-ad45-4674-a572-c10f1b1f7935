@@ -1,6 +1,6 @@
-<!-- Design decision for 914 Ink Tattoos (PROD). Converted by Claude Code from the owner-supplied single-page HTML. -->
+<!-- Design decision for Sleepy Tattoos (PROD; business renamed to Sleepy Tattoos 2026-10-23). Converted by Claude Code from the owner-supplied single-page HTML. -->
 
-# DESIGN.md: 914 Ink Tattoos
+# DESIGN.md: Sleepy Tattoos
 
 archetype: ink-and-blood-noir
 interaction_level: L1
@@ -8,7 +8,7 @@ interaction_level: L1
 typography:
   display: "Anton"                 # condensed uppercase display for headings, numbers, stats
   body: "Manrope"                  # 400-800
-  ornament: "UnifrakturMaguntia"   # blackletter, used only for the "Sleepy Tattoos" eyebrow and the sign-off
+  ornament: "UnifrakturMaguntia"   # blackletter, used only for the hero eyebrow ("Joel Tello") and the sign-off
   note: Fonts are exactly the ones in the supplied design.
 
 palette:
@@ -24,7 +24,7 @@ composition: |
   under 720px) > split hero (copy left, chest-piece photo right with gradient fade) > 3-up stats strip > 10-tile work
   gallery linking to Instagram reels > numbered specialties list > About Joel (sticky round portrait + story + pull
   quote + blackletter sign-off) > booking band (big phone number, text/call buttons, Instagram DM chips) > Visit
-  (address, directions, opening hours with today highlighted, 18+ badge, other artists) > FAQ (added for Kora) > footer.
+  (address, directions and 18+ badge | opening hours with today highlighted) > FAQ (added for Kora) > footer.
 
 motion: |
   Gentle fade-up reveals on scroll (assets/site.js, IntersectionObserver), gallery image zoom on hover, button press
@@ -32,7 +32,9 @@ motion: |
 
 content_rules:
   - Copy is the owner's own text from the supplied HTML; keep it verbatim.
+  - Business name is Sleepy Tattoos (owner, 2026-10-23). Never mention the former shop name, its old logo or its old Instagram account.
+  - Logo: no logo artwork yet. Header/footer use a red Anton "S" monogram tile (.brand-mark); the favicon is the same tile as an inline SVG.
   - Bookings are by text (sms:+19144095271); there is no booking form.
   - Opening hours (owner-confirmed 2026-10-22, Google Business Profile): Mon–Sat 11 AM–8 PM, Sunday closed.
   - 18+ only, valid ID required.
-  - The other artists at the shop (Pro, Candy) are listed with their Instagram handles only.
+  - Only Joel / Sleepy Tattoos is presented; the other artists who work at the address are not mentioned (owner, 2026-10-23).

@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /.kora/
 
-Sitemap: https://914inktattoos.com/sitemap.xml
+Sitemap: https://sleepytattoos.com/sitemap.xml
