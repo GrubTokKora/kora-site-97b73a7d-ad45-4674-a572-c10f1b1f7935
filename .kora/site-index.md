@@ -10,7 +10,7 @@ sections:
 - `#work` "Recent pieces" — gallery of ten recent tattoo photos, each linking to its Instagram reel
 - `#styles` "What Joel does best" — four numbered specialties: black and grey realism, portraits, custom lettering, cover-ups
 - `#about` "The artist behind Sleepy Tattoos" — Joel's round portrait and his first-person story, pull quote and sign-off
-- `#book` "Ready when you are" — booking band: appointments by text, the large phone number, text and call buttons, Instagram DM chip
+- `#book` "Ready when you are" — booking band: online booking calendar, appointments by text, the large phone number, text and call buttons, Instagram DM chip
 - `#visit` "Find the shop" — two columns: shop address with directions button and 18+ ID badge; opening hours list with today highlighted and the text-to-book line
 - `#faq` "Frequently asked questions" — six-question FAQ accordion with matching FAQPage schema
 also: Opening hours appear in three places: the Visit hours list, the JSON-LD openingHoursSpecification and llms.txt; keep them in sync.
